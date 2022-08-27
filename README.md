@@ -1,10 +1,11 @@
 # Vi Coding Assignment 
 
-__Writing what this project does...__
+This project get data about marvel characters
 
 ## Tools
 - Jest for testing
-- __List additional tools you used...__
+- Express
+- Typescript
 
 ## Getting Started
 
@@ -26,4 +27,14 @@ npm test
 
 ### How to use
 
-__Describe how to use the project: starting the server, using endpoints, etc.__
+```
+npm i
+npm run dev
+```
+server is running on port 3000 and router prefix is "api/"
+
+### Example
+```
+http://localhost:3000/api/moviesPerActor
+http://localhost:3000/api/actorsWithMultipleCharacters
+```
